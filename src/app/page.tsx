@@ -11,23 +11,10 @@ import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
-  InstagramIcon,
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
-import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
-import { CanvasRevealEffectDemo } from '@/components/canvas-reveal-effect-demo'
-import { CanvasRevealWithMask } from '@/components/ui/reveal-with-mask'
 import { SnowconeCard, HeliusCard, RamifiCard } from '@/components/CompanyCards'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -89,20 +76,6 @@ function ArrowDownIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   )
 }
 
-function Article({ article }: { article: ArticleWithSlug }) {
-  return (
-    <Card as="article">
-      <Card.Title href={`/articles/${article.slug}`}>
-        {article.title}
-      </Card.Title>
-      <Card.Eyebrow as="time" dateTime={article.date} decorate>
-        {formatDate(article.date)}
-      </Card.Eyebrow>
-      <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
-    </Card>
-  )
-}
 
 function SocialLink({
   icon: Icon,
@@ -242,7 +215,6 @@ function Resume() {
 }
 
 export default async function Home() {
-  let articles = (await getAllArticles()).slice(0, 4)
 
   return (
     <>

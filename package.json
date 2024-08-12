@@ -29,6 +29,7 @@
     "fast-glob": "^3.2.11",
     "feed": "^4.2.2",
     "framer-motion": "^11.3.24",
+    "mdx": "^0.3.1",
     "next": "14.2.5",
     "next-themes": "^0.2.1",
     "puppeteer": "^23.0.2",
