@@ -3,33 +3,6 @@ import HeliusLogo from '@/images/logos/helius.svg';
 import RamifyLogo from '@/images/logos/ramify.svg';
 import EazyInvLogo from '@/images/logos/eazyinv.svg';
 import EthmintLogo from '@/images/logos/ethmint.svg';
-import TCCLogo from '@/images/logos/tcc.svg';
-import ODULogo from '@/images/logos/odu.svg';
-
-const personalInfo = {
-    name: 'Kyle Forkey',
-    title: 'Full Stack Developer',
-    email: 'xforkey@gmail.com',
-    phone: '+1 (561) 313-9856',
-    github: 'github.com/sirbenchalot757',
-};
-
-const education = [
-    {
-        school: 'Old Dominion University',
-        degree: 'Bachelor of Civil Engineering',
-        logo: ODULogo,
-        start: '2011',
-        end: '2013',
-    },
-    {
-        school: 'Tidewater Community College',
-        degree: 'Associates of Science',
-        logo: TCCLogo,
-        start: '2009',
-        end: '2011',
-    },
-];
 
 const resume = [
     {
@@ -109,4 +82,4 @@ const projects = [
 
 const summary = `Results-driven Full Stack Web Developer with 7+ years of experience in designing, developing, and deploying scalable web applications. Proficient in modern web technologies including JavaScript, React, Node.js, and Python. Adept at collaborating with cross-functional teams and implementing agile methodologies to deliver high-quality software solutions.`;
 
-export default { personalInfo, education, resume, skills, projects, summary };
+export default { resume, skills, projects, summary };

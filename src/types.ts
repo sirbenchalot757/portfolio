@@ -28,8 +28,6 @@ interface Project {
 }
 
 export type ResumeProps = {
-    personalInfo: PersonalInfo;
-    education: Education[];
     resume: Experience[];
     skills: string[];
     projects: Project[];
