@@ -1,5 +1,3 @@
-'use client'
-
 import { type Metadata } from 'next';
 import ResumeTemplate from '@/components/resume-template';
 import DeveloperData from './resume-type/developer';
@@ -9,11 +7,11 @@ import { Tailwind } from '@fileforge/react-print';
 
 export default function Projects() {
   return (
-    <Tailwind>
+    <div>
       <div className="flex justify-end mt-15 pt-15">
         <DownloadPdfButton resumeData={FlatfileData} />
       </div>
       <ResumeTemplate {...FlatfileData} />
-    </Tailwind>
+    </div>
   );
 }

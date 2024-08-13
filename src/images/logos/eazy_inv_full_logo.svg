@@ -1,0 +1,40 @@
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 82.15 22.95">
+    <defs>
+        <style
+            dangerouslySetInnerHTML={{__html: "\n            .eazyinv-logo-cls-1 {\n                fill: url(#eazyinv-linear-gradient-2);\n            }\n\n            .eazyinv-logo-cls-2 {\n                fill: url(#eazyinv-linear-gradient);\n            }\n\n            .eazyinv-logo-cls-3 {\n                fill: #60a5fa;\n            }\n\n            .eazyinv-logo-cls-4,\n            .eazyinv-logo-cls-5 {\n                isolation: isolate;\n            }\n\n            .eazyinv-logo-cls-5 {\n                fill: #f1f5f9;\n                font-family: MyriadPro-Bold, 'Myriad Pro';\n                font-size: 18.4px;\n                font-weight: 700;\n            }\n        "
+            }} />
+        <linearGradient id="eazyinv-linear-gradient" x1={0} y1="11.68" x2={20} y2="11.68"
+            gradientTransform="translate(0 21.68) scale(1 -1)" gradientUnits="userSpaceOnUse">
+            <stop offset={0} stopColor="#334155" />
+            <stop offset={1} stopColor="#1e293b" />
+        </linearGradient>
+        <linearGradient id="eazyinv-linear-gradient-2" x1="2.86" y1="13.03" x2="22.15" y2="13.03"
+            gradientTransform="translate(0 21.68) scale(1 -1)" gradientUnits="userSpaceOnUse">
+            <stop offset={0} stopColor="#60a5fa" />
+            <stop offset={1} stopColor="#3b82f6" />
+        </linearGradient>
+    </defs>
+    <g id="Layer_2-2">
+        <g id="Layer_1-2">
+            <path className="eazyinv-logo-cls-2"
+                d="M4.67,0h10.66C17.91,0,20,2.09,20,4.67v10.66c0,2.58-2.09,4.67-4.67,4.67H4.67C2.09,20,0,17.91,0,15.33V4.67C0,2.09,2.09,0,4.67,0Z" />
+            <path className="eazyinv-logo-cls-1"
+                d="M22.11,1.8c-.06-.13-.21-.2-.35-.2h-1.64c-.07,0-.14.02-.19.05-.04.02-1.01.61-2.54,1.92-1.36,1.16-3.9,3.17-6.12,6.02,0,0,0,0,0,0l-.06-.16c-.3-1.91-1.52-2.8-3.07-2.8-1.46,0-2.36.84-2.72,1.4h-.05l-.13-1.2h-2.37c.04.77.07,1.71.07,2.8v5.99h2.73v-5.07c0-.25.04-.52.11-.68.18-.5.63-1.03,1.38-1.03.14,0,.45,0,.76.21.3.2.42.5.48.64.11.27.28.66.49,1.16.41,1.07,1.24,3.16,2.14,4.69.07.11.19.18.33.18.13,0,.26-.07.32-.19.05-.09,5.65-9.08,10.36-13.27.12-.11.17-.29.08-.46h0Z" />
+        </g>
+        <g id="Layer_1-2-2">
+            <g className="eazyinv-logo-cls-4"><text className="eazyinv-logo-cls-5" transform="translate(24.68 18.35)">
+                    <tspan x={0} y={0}>Ea</tspan>
+                </text><text className="eazyinv-logo-cls-5" transform="translate(44.03 18.35)">
+                    <tspan x={0} y={0}>z</tspan>
+                </text><text className="eazyinv-logo-cls-5" transform="translate(52.73 18.35)">
+                    <tspan x={0} y={0}>y</tspan>
+                </text></g>
+            <path className="eazyinv-logo-cls-3"
+                d="M79.24,9.36l-1.15,4.18c-.2.77-.35,1.45-.49,2.19h-.05c-.07-.37-.14-.74-.23-1.11-.04-.19-.13-.52-.28-1.08-.12-.44-.29-1-.51-1.67-.34-1.85-1.55-2.71-3.08-2.71s-2.38.86-2.75,1.43h-.05l-.13-1.23h-2.4c.04.79.07,1.75.07,2.87v6.13h2.76v-5.19c0-.26.04-.53.11-.7.25-.56.67-.85.8-.92.15-.08.42-.23.75-.2,0,0,.28.03.56.23.17.12.43.54.74,1.19.56,1.44,1.12,2.89,1.68,4.33.06.17.11.33.17.5.1.24.2.48.31.72,0,.01.01.02.01.04h0s.01.02.02.04c.18-.01.36-.02.53-.04h2.21l3.31-9h-2.91,0Z" />
+            <path className="eazyinv-logo-cls-3"
+                d="M66.33,6.24c-.28.75-.12.99-.44,1.38-.28.34-.74.59-1.24.59-.87,0-1.45-.63-1.44-1.4,0-.34.09-.65.28-.89.27-.35.66-.41,1.18-.53,1.68-.37,2.2-.72,2.33-.52.12.19-.34.45-.67,1.36h0Z" />
+            <rect className="eazyinv-logo-cls-3" x="63.29" y="9.32" width="2.76" height={9} />
+        </g>
+    </g>
+</svg>

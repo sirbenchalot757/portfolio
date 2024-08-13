@@ -37,7 +37,7 @@ const DownloadPdfButton: React.FC<DownloadPdfButtonProps> = ({ resumeData }) => 
     };
 
     return (
-        <Button type="button" onClick={handleDownloadPDF} variant='primary' className='bg-zinc-700 font-semibold text-zinc-800 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 border mb-4'>
+        <Button type="button" onClick={handleDownloadPDF} variant='primary' className='bg-blue-700 font-semibold text-white hover:bg-blue-500 active:bg-blue-400 active:text-white/40 border mb-4'>
             Download PDF
         </Button>
     );

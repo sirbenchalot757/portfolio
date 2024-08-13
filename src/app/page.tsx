@@ -15,7 +15,8 @@ import {
   TwitterIcon,
 } from '@/components/SocialIcons'
 import { formatDate } from '@/lib/formatDate'
-import { SnowconeCard, HeliusCard, RamifiCard } from '@/components/CompanyCards'
+import { SnowconeCard, HeliusCard, RamifiCard, EazyinvCard } from '@/components/CompanyCards'
+import { Avatar, AvatarContainer } from '@/components/Avatar';
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -137,6 +138,21 @@ function Role({ role }: { role: Role }) {
 
 const resume = [
   {
+    company: 'Eazyinv',
+    title: 'Lead Developer',
+    logo: EazyInvLogo,
+    start: 'Feb 2024',
+    end: 'Present',
+    highlights: [
+      'Led development of a DAO web app using Next.js, and smart contracts with a lighthouse score of 97.',
+      'Integrated The Graph for real-time on-chain data management with a GraphQL interface.',
+      'Implemented file uploads via Supabase and Pinata for IPFS, ensuring open-source principles.',
+      'Managed 2 junior developers, performed code reviews, and set up a CI/CD pipeline.',
+      'Designed a highly praised responsive UI using MUI React, Jotai, and Redux.',
+      'Authored Snowcone Kit for wallet connections and transactions, and created documentation.'
+    ],
+  },
+  {
     company: 'SnowCone',
     title: 'Lead Developer',
     logo: SnowConeLogo,
@@ -206,10 +222,6 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
     </div>
   )
 }
@@ -219,12 +231,21 @@ export default async function Home() {
   return (
     <>
       <Container className="mt-9">
+        {/*         <div className="flex flex-1">
+          <AvatarContainer>
+            <Avatar />
+          </AvatarContainer>
+        </div> */}
+        <h3 className="text-lg font-bold tracking-tight text-zinc-800 dark:text-zinc-400 sm:text-3xl">
+          Kyle Forkey
+        </h3>
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Full stack developer / designer
+            Full stack developer / <span className="bg-gradient-to-br from-blue-200 to-fuchsia-500 bg-clip-text text-transparent">designer</span>
           </h1>
+
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Experienced in creating efficient, scalable web applications with a keen eye for design.
+            7+ years of experience in designing, developing, and deploying scalable web applications.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -242,6 +263,10 @@ export default async function Home() {
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
+            <div className='flex'>
+              <MailIcon className="h-6 w-6 mr-1 fill-zinc-500 dark:fill-zinc-400" />
+              <p className='text-zinc-400 font-bold text-sm'>Xforkey@gmail.com</p>
+            </div>
           </div>
         </div>
       </Container>
@@ -253,6 +278,7 @@ export default async function Home() {
         opacities={[0.3, 0.3, 0.3, 0.5, 0.5, 0.5, 0.8, 0.8, 0.8, 1]}
       /> */}
         <SnowconeCard />
+        <EazyinvCard />
         <HeliusCard />
         <RamifiCard />
       </Container>
